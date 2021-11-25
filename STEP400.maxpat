@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 303.0, 225.0, 1039.0, 895.0 ],
+		"rect" : [ 303.0, 225.0, 1006.0, 801.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2043,7 +2043,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3511,7 +3511,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6353,7 +6353,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7614,7 +7614,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8925,7 +8925,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10056,7 +10056,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 303.0, 251.0, 1039.0, 869.0 ],
+						"rect" : [ 303.0, 251.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10092,8 +10092,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 443.75, 715.0, 272.0, 34.0 ],
-									"presentation_linecount" : 3,
+									"patching_rect" : [ 443.25, 715.0, 272.0, 34.0 ],
 									"text" : "minSpeed defines releaseSw speed.\nnote: low speed optimization should be turned off"
 								}
 
@@ -11870,7 +11869,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14178,8 +14177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 260.0, 97.0, 22.0 ],
-					"text" : "10 0 0 61 1"
+					"patching_rect" : [ 396.0, 260.0, 97.0, 22.0 ]
 				}
 
 			}
@@ -14259,7 +14257,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15748,8 +15746,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 576.0, 431.0, 140.0, 22.0 ],
-									"text" : "1 0 32 32 23"
+									"patching_rect" : [ 576.0, 431.0, 140.0, 22.0 ]
 								}
 
 							}
@@ -17401,7 +17398,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1039.0, 869.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -18083,8 +18080,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 384.0, 32.0, 238.0, 22.0 ],
-									"text" : "/homingStatus 1 3"
+									"patching_rect" : [ 384.0, 32.0, 238.0, 22.0 ]
 								}
 
 							}
@@ -18333,8 +18329,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 310.5, 105.0, 97.0, 22.0 ],
-									"text" : "10 0 0 61 1"
+									"patching_rect" : [ 310.5, 105.0, 97.0, 22.0 ]
 								}
 
 							}
