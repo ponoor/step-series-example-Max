@@ -695,7 +695,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 691.0, 531.0, 231.0, 22.0 ]
+									"patching_rect" : [ 691.0, 531.0, 231.0, 22.0 ],
+									"text" : "MotorIdNotMatch 9"
 								}
 
 							}
@@ -7457,7 +7458,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1013.0, 801.0 ],
+						"rect" : [ 1429.0, 247.0, 1013.0, 801.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7487,6 +7488,103 @@
 						"showontab" : 2,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 444.25, 423.0, 79.0, 22.0 ],
+									"text" : "s toSTEP800"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-58",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 796.25, 448.0, 90.0, 22.0 ],
+									"text" : "/getPositionList"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 834.0, 368.0, 29.5, 22.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-51",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 796.25, 368.0, 29.5, 22.0 ],
+									"text" : "30"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-49",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 796.25, 413.0, 181.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"text" : "/setPositionListReportInterval $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-48",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 639.75, 376.0, 29.5, 22.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-45",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 602.0, 376.0, 29.5, 22.0 ],
+									"text" : "30"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 602.0, 413.0, 173.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"text" : "/setPositionReportInterval 1 $1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-40",
 									"maxclass" : "comment",
@@ -8444,8 +8542,57 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-43", 0 ],
+									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-43", 0 ],
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-49", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-49", 0 ],
+									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-49", 0 ],
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-58", 0 ]
 								}
 
 							}
@@ -9176,7 +9323,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 373.75, 219.0, 231.0, 22.0 ]
+									"patching_rect" : [ 373.75, 219.0, 231.0, 22.0 ],
+									"text" : "MotorIdNotMatch 9"
 								}
 
 							}
@@ -12710,7 +12858,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 396.0, 260.0, 97.0, 22.0 ],
-					"text" : "10 0 0 61 1"
+					"text" : "10 0 0 61 0"
 				}
 
 			}
@@ -12836,7 +12984,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ -1520.0, 1411.0, 1118.0, 529.0 ],
+										"rect" : [ 123.0, 152.0, 1118.0, 529.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -12865,6 +13013,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 658.0, 250.0, 70.0, 22.0 ],
+													"text" : "/getElPos 1"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-48",
 													"maxclass" : "message",
@@ -13171,8 +13331,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 538.0, 274.0, 79.0, 22.0 ],
-													"text" : "/setElPos 1 1"
+													"patching_rect" : [ 538.0, 274.0, 89.0, 22.0 ],
+													"text" : "/setElPos 1 1 0"
 												}
 
 											}
@@ -13612,6 +13772,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-88", 0 ],
 													"source" : [ "obj-77", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"source" : [ "obj-8", 0 ]
 												}
 
 											}
@@ -15601,7 +15768,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 250.0, 242.0, 124.0, 22.0 ],
-									"text" : "port 50101"
+									"text" : "port 50100"
 								}
 
 							}
@@ -15650,7 +15817,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 83.0, 238.0, 124.0, 22.0 ],
-									"text" : "host 10.0.0.101"
+									"text" : "host 10.0.0.100"
 								}
 
 							}
@@ -15931,7 +16098,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1429.0, 247.0, 1013.0, 801.0 ],
+						"rect" : [ 0.0, 26.0, 1013.0, 801.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15961,6 +16128,18 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 746.5, 360.0, 220.0, 48.0 ],
+									"text" : "Reset the entire device.\nSame as physically push the reset button."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-30",
 									"maxclass" : "toggle",
@@ -16458,7 +16637,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 360.0, 595.0, 175.0, 22.0 ]
+									"patching_rect" : [ 360.0, 595.0, 175.0, 22.0 ],
+									"text" : "MotorIdNotMatch 9"
 								}
 
 							}
@@ -16470,7 +16650,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 360.0, 547.0, 175.0, 22.0 ]
+									"patching_rect" : [ 360.0, 547.0, 175.0, 22.0 ],
+									"text" : "MessageNotMatch"
 								}
 
 							}
@@ -16582,18 +16763,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-95",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 742.0, 355.0, 220.0, 34.0 ],
-									"text" : "Acqires ADC_OUT register values from the PowerSTEP01 chip."
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontface" : 1,
 									"id" : "obj-93",
@@ -16614,7 +16783,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.0, 32.0, 238.0, 22.0 ],
-									"text" : "/destIp 10 0 0 61 1"
+									"text" : "/positionList 0 0 0 0 0 0 0 0"
 								}
 
 							}
@@ -16864,7 +17033,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 310.5, 105.0, 97.0, 22.0 ],
-									"text" : "10 0 0 61 1"
+									"text" : "10 0 0 61 0"
 								}
 
 							}
@@ -16974,31 +17143,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 630.0, 66.0, 22.0 ],
 									"text" : "/run 9 200."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-44",
-									"items" : [ 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8, ",", 255 ],
-									"maxclass" : "umenu",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 662.0, 355.0, 50.0, 22.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-43",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 662.0, 382.0, 82.0, 22.0 ],
-									"text" : "/getAdcVal $1"
 								}
 
 							}
@@ -19199,38 +19343,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-22",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 716.5, 411.0, 247.0, 34.0 ],
-									"text" : "This command is also reset the motor driver chip but leave it it's factory defaults."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-23",
-									"items" : [ 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8, ",", 255 ],
-									"maxclass" : "umenu",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 662.0, 416.0, 50.0, 22.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-25",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 662.0, 448.0, 77.0, 22.0 ],
-									"text" : "/resetDev $1"
+									"patching_rect" : [ 662.0, 366.0, 75.0, 22.0 ],
+									"text" : "/resetDevice"
 								}
 
 							}
@@ -19477,13 +19596,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-23", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-72", 0 ],
 									"source" : [ "obj-25", 0 ]
 								}
@@ -19535,20 +19647,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-56", 0 ],
 									"source" : [ "obj-42", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-72", 0 ],
-									"source" : [ "obj-43", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-43", 0 ],
-									"source" : [ "obj-44", 1 ]
 								}
 
 							}
