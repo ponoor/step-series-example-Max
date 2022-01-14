@@ -3511,7 +3511,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
+						"rect" : [ 303.0, 251.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3808,7 +3808,7 @@
 												"box" : 												{
 													"id" : "obj-7",
 													"maxclass" : "number",
-													"maximum" : 127,
+													"maximum" : 31,
 													"minimum" : 0,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -4180,7 +4180,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 754.0, 237.0, 42.0, 22.0 ],
+									"patching_rect" : [ 754.0, 237.0, 100.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -4188,7 +4188,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p Stall"
+									"text" : "p Stall_STEP400"
 								}
 
 							}
@@ -4916,7 +4916,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 302.666666666666515, 339.0, 33.0, 20.0 ],
-									"text" : "0-15"
+									"text" : "0-31"
 								}
 
 							}
@@ -4924,7 +4924,7 @@
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "number",
-									"maximum" : 15,
+									"maximum" : 31,
 									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -8925,7 +8925,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 303.0, 251.0, 1006.0, 775.0 ],
+						"rect" : [ 0.0, 26.0, 1006.0, 775.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14340,8 +14340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 260.0, 97.0, 22.0 ],
-					"text" : "10 0 0 61 0"
+					"patching_rect" : [ 396.0, 260.0, 97.0, 22.0 ]
 				}
 
 			}
@@ -18287,8 +18286,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 384.0, 32.0, 238.0, 22.0 ],
-									"text" : "/booted 0"
+									"patching_rect" : [ 384.0, 32.0, 238.0, 22.0 ]
 								}
 
 							}
@@ -18537,8 +18535,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 310.5, 105.0, 97.0, 22.0 ],
-									"text" : "10 0 0 61 0"
+									"patching_rect" : [ 310.5, 105.0, 97.0, 22.0 ]
 								}
 
 							}
